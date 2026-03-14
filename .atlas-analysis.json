@@ -1,0 +1,205 @@
+{
+  "projectType": "framework",
+  "projectName": "Mercur",
+  "projectDescription": "Open-source multi-vendor marketplace platform built on MedusaJS for B2B and B2C commerce",
+  "theme": "palm",
+  "primaryColor": "#4e28d6",
+  "lightColor": "#a48cdc",
+  "darkColor": "#e9e4f2",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation",
+              "architecture"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/marketplace-model",
+              "concepts/sellers-vendors",
+              "concepts/multi-vendor-orders",
+              "concepts/commission-system",
+              "concepts/payouts"
+            ]
+          },
+          {
+            "group": "Modules",
+            "pages": [
+              "modules/overview",
+              "modules/b2c-core",
+              "modules/seller",
+              "modules/commission",
+              "modules/payout",
+              "modules/reviews",
+              "modules/requests",
+              "modules/algolia",
+              "modules/payment-stripe-connect"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/environment",
+              "configuration/database",
+              "configuration/modules",
+              "configuration/plugins"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "customization/creating-modules",
+              "customization/workflows",
+              "customization/api-routes",
+              "customization/admin-customization"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/stripe-connect",
+              "integrations/algolia-search",
+              "integrations/resend-email"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/overview",
+              "deployment/production-checklist",
+              "deployment/database-migrations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Framework API",
+            "pages": [
+              "api/framework/overview",
+              "api/framework/types",
+              "api/framework/utils",
+              "api/framework/links"
+            ]
+          },
+          {
+            "group": "Seller Module",
+            "pages": [
+              "api/seller/overview",
+              "api/seller/models",
+              "api/seller/services"
+            ]
+          },
+          {
+            "group": "Commission Module",
+            "pages": [
+              "api/commission/overview",
+              "api/commission/models",
+              "api/commission/services"
+            ]
+          },
+          {
+            "group": "Payout Module",
+            "pages": [
+              "api/payout/overview",
+              "api/payout/models",
+              "api/payout/services"
+            ]
+          },
+          {
+            "group": "Reviews Module",
+            "pages": [
+              "api/reviews/overview",
+              "api/reviews/models",
+              "api/reviews/services"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Building Marketplaces",
+            "pages": [
+              "guides/b2c-marketplace",
+              "guides/b2b-marketplace",
+              "guides/hybrid-marketplace"
+            ]
+          },
+          {
+            "group": "Vendor Management",
+            "pages": [
+              "guides/vendor-onboarding",
+              "guides/vendor-panel-setup",
+              "guides/vendor-products",
+              "guides/vendor-orders"
+            ]
+          },
+          {
+            "group": "Orders & Payments",
+            "pages": [
+              "guides/split-order-payments",
+              "guides/commission-calculation",
+              "guides/payout-management",
+              "guides/refunds"
+            ]
+          },
+          {
+            "group": "Storefront",
+            "pages": [
+              "guides/storefront-setup",
+              "guides/multi-vendor-cart",
+              "guides/product-filtering"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Multi-vendor marketplace platform",
+    "Seller/vendor management system",
+    "Commission and payout automation",
+    "Split order payment processing",
+    "Integrated vendor and admin panels",
+    "Product reviews and ratings",
+    "Algolia-powered search",
+    "Stripe Connect payment integration",
+    "Built on MedusaJS framework",
+    "Modular architecture with custom modules",
+    "B2C and B2B marketplace support",
+    "Customizable workflows"
+  ],
+  "publicApiSurface": [
+    "@mercurjs/framework",
+    "@mercurjs/b2c-core",
+    "@mercurjs/algolia",
+    "@mercurjs/commission",
+    "@mercurjs/reviews",
+    "@mercurjs/requests",
+    "@mercurjs/resend",
+    "@mercurjs/payment-stripe-connect",
+    "@mercurjs/stripe-tax-provider",
+    "SELLER_MODULE",
+    "COMMISSION_MODULE",
+    "PAYOUT_MODULE",
+    "REVIEWS_MODULE",
+    "REQUESTS_MODULE",
+    "ALGOLIA_MODULE",
+    "MARKETPLACE_MODULE",
+    "WISHLIST_MODULE",
+    "ATTRIBUTE_MODULE",
+    "CONFIGURATION_MODULE"
+  ]
+}
